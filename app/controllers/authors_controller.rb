@@ -31,6 +31,7 @@ class AuthorsController < ApplicationController
       redirect_to @author
     else
       redirect_to authors_path, error: 'Author was NOT updated.'
+    end
   end
 
   def destroy
