@@ -6,6 +6,4 @@ It's developed with:
 
 - Ruby on Rails
 
-- Bootstrap
-
 - Haml
