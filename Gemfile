@@ -17,6 +17,5 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'spring', group: :development
 
-gem 'therubyracer'
-gem 'less-rails'
-gem 'twitter-bootstrap-rails'
+gem 'haml', '~> 4.0.5'
+
