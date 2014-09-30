@@ -1,0 +1,7 @@
+%h1= @author.name
+
+%h2 List Quotes:
+%ul
+  / %= @author.quotes.each do |quote|
+  / %li
+  /   %=quote
