@@ -40,6 +40,7 @@ class QuotesController < ApplicationController
       redirect_to quotes_path
     else
       redirect_to quotes_path, error: 'Quote was NOT destroyed.'
+    end
   end
 
   private
